@@ -46,12 +46,12 @@ export default function DisplayTotal(props) {
       >
         <Grid item>
           <Grid container>
-            <Grid item xs={8}>
+            <Grid item xs={7}>
               <Typography className={classes.textField} gutterBottom>
                 Tip Amount
               </Typography>
             </Grid>
-            <Grid item xs="auto">
+            <Grid item xs={5}>
               <Typography className={classes.numberField}>
                 {isFinite(props.tipPerson) === false
                   ? `0.00$`
@@ -65,12 +65,12 @@ export default function DisplayTotal(props) {
         </Grid>
         <Grid item>
           <Grid container>
-            <Grid item xs={8}>
+            <Grid item xs={7}>
               <Typography className={classes.textField} gutterBottom>
                 Total
               </Typography>
             </Grid>
-            <Grid item xs="auto">
+            <Grid item xs={5}>
               <Typography className={classes.numberField}>
                 {isFinite(props.totalPerPerson) === false
                   ? `0.00$`
