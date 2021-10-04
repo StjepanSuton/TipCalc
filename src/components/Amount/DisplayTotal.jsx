@@ -46,7 +46,7 @@ export default function DisplayTotal(props) {
       >
         <Grid item>
           <Grid container>
-            <Grid item xs={7}>
+            <Grid item xs={8}>
               <Typography className={classes.textField} gutterBottom>
                 Tip Amount
               </Typography>
@@ -65,7 +65,7 @@ export default function DisplayTotal(props) {
         </Grid>
         <Grid item>
           <Grid container>
-            <Grid item xs={7}>
+            <Grid item xs={8}>
               <Typography className={classes.textField} gutterBottom>
                 Total
               </Typography>
